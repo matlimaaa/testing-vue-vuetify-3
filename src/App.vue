@@ -19,7 +19,33 @@
         Testing Vuetify 3
       </v-app-bar-title>
 
-      
+      <template #append>
+        <v-btn icon class="mr-3">
+          <v-badge dot color="info">
+            <v-icon icon="mdi-bell-outline" size="x-large"></v-icon>
+          </v-badge>
+        </v-btn>
+
+        <v-menu>
+          <template #activator="{ props }">
+            <v-avatar v-bind="props">
+              <v-img src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"></v-img>
+            </v-avatar>
+          </template>
+          
+          <v-card>
+            <v-list :lines="false" density="compact" nav>
+              <v-list-item link prepend-icon="mdi-account">
+                <v-list-item-title>Perfil</v-list-item-title>
+              </v-list-item>
+
+              <v-list-item link prepend-icon="mdi-cog">
+                <v-list-item-title>Configurações</v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-card>
+        </v-menu>
+      </template>
     </v-app-bar>
     <v-main>
       <v-container>
