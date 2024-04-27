@@ -51,6 +51,40 @@
       <v-container>
         <h1>Dashboard</h1>
 
+        <v-card flat class="border mb-4">
+          <v-card-title primary-title>
+            Usuários
+          </v-card-title>
+          <v-table>
+            <thead>
+              <tr>
+                <th> Nome </th>
+                <th> E-Mail </th>
+                <th> Cargo </th>
+                <th> Açoes </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Jon Snow</td>
+                <td>snow@noth.com</td>
+                <td>The King of the North ❄️🥶</td>
+                <td>
+                  <v-btn icon="mdi-pencil" size="35" variant="tonal" color="primary"></v-btn>
+                </td>
+              </tr>
+              <tr>
+                <td>Tyrion Lannister</td>
+                <td>littlelion@lannister.com</td>
+                <td>The little Lion 🦁</td>
+                <td>
+                  <v-btn icon="mdi-pencil" size="35" variant="tonal" color="primary"></v-btn>
+                </td>
+              </tr>
+            </tbody>
+          </v-table>
+        </v-card>
+
         <v-row>
           <v-col cols="12" sm="6" md="4" lg="3">
             <v-card class="mx-auto" max-width="400">
