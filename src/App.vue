@@ -50,7 +50,80 @@
     <v-main>
       <v-container>
         <h1>Dashboard</h1>
-        
+
+        <v-row>
+          <v-col cols="12" sm="6" md="4" lg="3">
+            <v-card class="mx-auto" max-width="400">
+              <v-img
+                class="align-end text-white"
+                height="200"
+                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                cover>
+                <v-card-title>Top 10 Praias da Austrália</v-card-title>
+              </v-img>
+
+              <v-card-actions>
+                <v-btn color="orange" prepend-icon="mdi-eye" text="Ver mais"></v-btn>
+
+                <v-btn color="orange" prepend-icon="mdi-share" text="compartilhar"></v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" sm="6" md="4" lg="3">
+            <v-card class="mx-auto" max-width="400">
+              <v-img
+                class="align-end text-white"
+                height="200"
+                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                cover>
+                <v-card-title>Top 10 Praias da Austrália</v-card-title>
+              </v-img>
+
+              <v-card-actions>
+                <v-btn color="orange" prepend-icon="mdi-eye" text="Ver mais"></v-btn>
+
+                <v-btn color="orange" prepend-icon="mdi-share" text="compartilhar"></v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+          
+          <v-col cols="12" sm="6" md="4" lg="3">
+            <v-card class="mx-auto" max-width="400">
+              <v-img
+                class="align-end text-white"
+                height="200"
+                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                cover>
+                <v-card-title>Top 10 Praias da Austrália</v-card-title>
+              </v-img>
+
+              <v-card-actions>
+                <v-btn color="orange" prepend-icon="mdi-eye" text="Ver mais"></v-btn>
+
+                <v-btn color="orange" prepend-icon="mdi-share" text="compartilhar"></v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" sm="6" md="4" lg="3">
+            <v-card class="mx-auto" max-width="400">
+              <v-img
+                class="align-end text-white"
+                height="200"
+                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                cover>
+                <v-card-title>Top 10 Praias da Austrália</v-card-title>
+              </v-img>
+
+              <v-card-actions>
+                <v-btn color="orange" prepend-icon="mdi-eye" text="Ver mais"></v-btn>
+
+                <v-btn color="orange" prepend-icon="mdi-share" text="compartilhar"></v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+        </v-row>
       </v-container>
     </v-main>
 
