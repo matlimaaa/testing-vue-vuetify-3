@@ -111,7 +111,11 @@
               <tr>
                 <td>Jon Snow</td>
                 <td>snow@noth.com</td>
-                <td>The King of the North ❄️🥶</td>
+                <td>
+                  <v-chip color="primary" variant="outlined">
+                    The King of the North ❄️🥶
+                  </v-chip>
+                </td>
                 <td>
                   <v-btn icon="mdi-pencil" size="35" variant="tonal" color="primary"></v-btn>
                 </td>
@@ -119,7 +123,11 @@
               <tr>
                 <td>Tyrion Lannister</td>
                 <td>littlelion@lannister.com</td>
-                <td>The little Lion 🦁</td>
+                <td>
+                  <v-chip color="orange" variant="outlined">
+                    The little Lion 🦁
+                  </v-chip>
+                </td>
                 <td>
                   <v-btn icon="mdi-pencil" size="35" variant="tonal" color="primary"></v-btn>
                 </td>
