@@ -71,19 +71,16 @@
                     <v-row>
                       <v-col>
                         <v-text-field
-                          label="Nome"
-                          variant="outlined"></v-text-field>
+                          label="Nome"></v-text-field>
                       </v-col>
                       <v-col>
                         <v-text-field
                           label="E-Mail"
-                          variant="outlined"
                           :rules="emailRules"></v-text-field>
                       </v-col>
                     </v-row>
 
                     <v-select
-                      variant="outlined"
                       label="Cargos"
                       :items="['The King of the North ❄️🥶', 'The little Lion 🦁', 'Regincida']"
                       ></v-select>
